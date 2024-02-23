@@ -1,4 +1,4 @@
-import "./dist/styles.css";
+import "./style/styles.css";
 import Home from "./pages/Home";
 
 function App() {
