@@ -1,4 +1,4 @@
-import "../dist/styles.css";
+import "../style/styles.css";
 import { IconBrandLinkedin, IconBrandGithub } from "@tabler/icons-react";
 
 
