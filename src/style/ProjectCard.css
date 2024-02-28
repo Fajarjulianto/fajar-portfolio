@@ -1,7 +1,9 @@
 .project-card {
+  position: relative;
   display: flex;
-  width: 752px;
-  height: 315px;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -9,51 +11,52 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-image {
-  flex: 1;
-  display: flex;
-}
 
 .project-image img {
   width: 100%;
-  height: auto;
+  height: 300px;
   object-fit: cover;
   border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
+
+.project-header {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: flex-start;
+  width: 100%;
+}
+
+
 
 .project-details {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
   width: 403px;
   padding-left: 2rem;
 }
 
-.project-details h2 {
-  margin-top: 0;
-  padding-left: 2rem;
-}
 
 .technologies {
   display: flex;
+  gap: 2rem;
   color: black !important;
   font-weight: 600 !important;
   font-family: "Mulish", sans-serif !important;
-  margin-bottom: 10px;
 }
 
 .technology-icon {
-  margin-right: 5px;
-  padding: 5px;
   border-radius: 5px;
 }
 
 .project-links {
   display: flex;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 2rem;
 }
 
 .project-links a {
@@ -66,10 +69,12 @@
   padding: 5px 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 .project-links a:hover {
   background-color: #f0f0f0;
+  color: #f97316;
 }
 
 @media only screen and (max-width: 768px) {

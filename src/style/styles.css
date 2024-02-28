@@ -568,6 +568,20 @@ nav ul a:hover {
   justify-content: center;
   align-items: center;
 }
+
+.project .container {
+  max-width: 107rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0 4rem;
+}
+
+.container h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #f97316;
+}
+
 @media (max-width: 1020px) {
   .project {
     display: flex;
@@ -577,14 +591,34 @@ nav ul a:hover {
 }
 
 .project-content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
 @media (max-width: 600px) {
   .project-content {
     text-align: center;
+    grid-template-columns: 1fr;
+    max-width: 54rem;
+    margin: 0 auto;
   }
 }
+
+@media (max-width: 400px) {
+  .project-content {
+    text-align: center;
+    grid-template-columns: 1fr;
+    max-width: 54rem;
+    padding: 2rem auto;
+    margin: 0 auto;
+  }
+}
+
+
 .project-content p {
   color: #2d2e32;
   font-size: 1.7rem;
@@ -593,7 +627,6 @@ nav ul a:hover {
 }
 .project-content h3 {
   font-size: 1.8rem;
-  text-transform: uppercase;
   color: #f97316;
 }
 
@@ -703,7 +736,7 @@ footer {
 }
 footer h3 {
   font-size: 1.7rem;
-  color: white;
+  color: white !important;
 }
 
 .footerc {
