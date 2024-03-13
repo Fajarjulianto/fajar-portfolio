@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overvflow: hidden;
 }
 
 html {
@@ -567,6 +568,7 @@ nav ul a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  overvflow: hidden;
 }
 
 .project .container {
@@ -618,7 +620,6 @@ nav ul a:hover {
   }
 }
 
-
 .project-content p {
   color: #2d2e32;
   font-size: 1.7rem;
@@ -629,7 +630,6 @@ nav ul a:hover {
   font-size: 1.8rem;
   color: #f97316;
 }
-
 
 @media (max-width: 460px) {
   .container {
