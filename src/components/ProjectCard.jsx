@@ -12,7 +12,7 @@ const ProjectCard = ({ image, name, description, tech1, tech2, repositoryLink, l
       <div className="project-details">
         <div className="project-header">
           <h3>{name}</h3>
-          <p>{description}</p>
+          <p dangerouslySetInnerHTML={{ __html: description }}></p>
         </div>
         <div className="technologies">
             <p className="technology-icon">{tech1}</p>

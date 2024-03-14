@@ -19,7 +19,7 @@ function Projects() {
             <ProjectCard 
               image="/assets/project-2.png"
               name="Movie DB"
-              description="Web App to search movie information"
+              description="Web App to search movie"
               tech1="React"
               tech2="Tailwind CSS"
               repositoryLink="https://github.com/Fajarjulianto/what-movies"
@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard 
               image="/assets/project-3.png"
               name="Weather App"
-              description="website to find out the weather in your city"
+              description="find out the weather in your <br/> city"
               tech1="React"
               tech2="Tailwind CSS"
               repositoryLink="https://github.com/Fajarjulianto/weather-app"
