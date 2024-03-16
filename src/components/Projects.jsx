@@ -7,6 +7,14 @@ function Projects() {
           <div className="container">
           <h3>Portofolio</h3>
           <div className="project-content">
+          <ProjectCard 
+              image="/assets/project-4.png"
+              name="Adopt Me"
+              description="slicing challenge from codedesign.dev"
+              tech1="React"
+              tech2="Tailwind CSS"
+              repositoryLink="https://github.com/Fajarjulianto/adoptme"
+            />
             <ProjectCard 
               image="/assets/project-1.png"
               name="To do List"
