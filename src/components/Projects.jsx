@@ -35,7 +35,7 @@ function Projects() {
             <ProjectCard 
               image="/assets/project-3.png"
               name="Weather App"
-              description="find out the weather in your <br/> city"
+              description="find out the weather"
               tech1="React"
               tech2="Tailwind CSS"
               repositoryLink="https://github.com/Fajarjulianto/weather-app"
