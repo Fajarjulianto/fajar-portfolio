@@ -10,7 +10,7 @@ function Projects() {
           <ProjectCard 
               image="/assets/project-4.png"
               name="Adopt Me"
-              description="slicing challenge from codedesign.dev"
+              description="slicing challenge"
               tech1="React"
               tech2="Tailwind CSS"
               repositoryLink="https://github.com/Fajarjulianto/adoptme"
