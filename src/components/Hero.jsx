@@ -1,22 +1,21 @@
 import "../style/styles.css";
 import { IconBrandLinkedin, IconBrandGithub } from "@tabler/icons-react";
 
-
 const skillsIcons = [
   {
     img: "https://skillicons.dev/icons?i=html,css",
     id: 1,
   },
   {
-    img: "https://skillicons.dev/icons?i=scss,bootstrap",
+    img: "https://skillicons.dev/icons?i=js,tailwind",
     id: 2,
   },
   {
-    img: "https://skillicons.dev/icons?i=js,vite",
+    img: "https://skillicons.dev/icons?i=react,next",
     id: 3,
   },
   {
-    img: "https://skillicons.dev/icons?i=tailwind,react",
+    img: "https://skillicons.dev/icons?i=supabase,mysql",
     id: 4,
   },
 ];
@@ -31,7 +30,10 @@ function Hero() {
               <div className="hero-text">
                 <h1>Fajar Julianto</h1>
                 <h2>Junior Frontend Developer</h2>
-                <p>Hi everyone<span className="wave">👋🏼</span>,welcome to my portfolio website.</p>
+                <p>
+                  Hi everyone<span className="wave">👋🏼</span>,welcome to my
+                  portfolio website.
+                </p>
                 <span>
                   <a
                     aria-label="linkedin"
@@ -52,11 +54,10 @@ function Hero() {
                 </span>
                 {/* <a href="" className="hero-btn"><IconFileDownload margin-right="2px"/>Download CV</a> */}
               </div>
-             
 
               <div className="hero-img"></div>
             </div>
-            
+
             {/*  */}
             <div className="skills">
               <p>Tech Stack</p>
