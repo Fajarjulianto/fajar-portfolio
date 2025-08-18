@@ -1,13 +1,13 @@
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
-    return (
-      <>
-        <section id="projects" className="project">
-          <div className="container">
-          <h3>Portofolio</h3>
+  return (
+    <>
+      <section id="projects" className="project">
+        <div className="container">
+          <h3>My Projects</h3>
           <div className="project-content">
-          <ProjectCard 
+            <ProjectCard
               image="/assets/project-4.png"
               name="Adopt Me"
               description="slicing challenge"
@@ -15,7 +15,7 @@ function Projects() {
               tech2="Tailwind CSS"
               repositoryLink="https://github.com/Fajarjulianto/adoptme"
             />
-            <ProjectCard 
+            <ProjectCard
               image="/assets/project-1.png"
               name="To do List"
               description="Simple To Do List App"
@@ -24,7 +24,7 @@ function Projects() {
               repositoryLink="https://github.com/Fajarjulianto/todofj"
               liveDemoLink="https://todofj.vercel.app/"
             />
-            <ProjectCard 
+            <ProjectCard
               image="/assets/project-2.png"
               name="Movie DB"
               description="Web App to search movie"
@@ -32,7 +32,7 @@ function Projects() {
               tech2="Tailwind CSS"
               repositoryLink="https://github.com/Fajarjulianto/what-movies"
             />
-            <ProjectCard 
+            <ProjectCard
               image="/assets/project-3.png"
               name="Weather App"
               description="find out the weather"
@@ -40,13 +40,12 @@ function Projects() {
               tech2="Tailwind CSS"
               repositoryLink="https://github.com/Fajarjulianto/weather-app"
             />
-            </div>
-            <h2 className="new-projects">New projects coming soon..</h2>
           </div>
-        </section>
-      </>
-    );
-  }
-            
+          <h2 className="new-projects">New projects coming soon..</h2>
+        </div>
+      </section>
+    </>
+  );
+}
+
 export default Projects;
-  

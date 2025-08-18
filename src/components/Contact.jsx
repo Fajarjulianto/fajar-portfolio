@@ -17,7 +17,9 @@ function Contact() {
                 </span>
                 <div className="contact__info">
                   <h3>Location</h3>
-                  <p>Tulang Bawang Barat, Lampung</p>
+                  <a href="https://maps.app.goo.gl/67B3jeX3qJvVj19W9">
+                    Tulang Bawang Barat, Lampung
+                  </a>
                 </div>
               </div>
 
