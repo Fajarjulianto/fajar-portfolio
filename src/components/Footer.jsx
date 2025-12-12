@@ -14,9 +14,9 @@ function Footer() {
                 aria-label="linkedin"
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/fajar-julianto-2128a3255/"
+                href="https://www.linkedin.com/in/fajar-id-70356a394/"
               >
-              <IconBrandLinkedin width={32} height={32} />
+                <IconBrandLinkedin width={32} height={32} />
               </a>
               <a
                 aria-label="github"
@@ -24,7 +24,7 @@ function Footer() {
                 rel="noreferrer"
                 href="https://github.com/Fajarjulianto"
               >
-             <IconBrandGithub width={32} height={32} />
+                <IconBrandGithub width={32} height={32} />
               </a>
             </div>
           </div>
