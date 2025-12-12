@@ -8,15 +8,16 @@ function Projects() {
           <h3>My Projects</h3>
           <div className="project-content">
             <ProjectCard
-              image="/assets/project-4.png"
-              name="Adopt Me"
-              description="slicing challenge"
-              tech1="React"
+              image="/assets/fajarmotor.png"
+              name="Fajar Motor"
+              description="Simple Landing Page"
+              tech1="Next JS"
               tech2="Tailwind CSS"
-              repositoryLink="https://github.com/Fajarjulianto/adoptme"
+              repositoryLink="https://github.com/Fajarjulianto/fajar-motor"
+              liveDemoLink="https://fajar-motor.vercel.app/"
             />
             <ProjectCard
-              image="/assets/project-1.png"
+              image="/assets/todofj.png"
               name="To do List"
               description="Simple To Do List App"
               tech1="React"
@@ -25,20 +26,21 @@ function Projects() {
               liveDemoLink="https://todofj.vercel.app/"
             />
             <ProjectCard
-              image="/assets/project-2.png"
-              name="Movie DB"
-              description="Web App to search movie"
-              tech1="React"
+              image="/assets/grocery.png"
+              name="FR Grocery App"
+              description="Online Grocery Ecommerce"
+              tech1="Next JS"
               tech2="Tailwind CSS"
-              repositoryLink="https://github.com/Fajarjulianto/what-movies"
+              repositoryLink="https://github.com/Fajarjulianto/grocery"
+              liveDemoLink="https://grocery-five-chi.vercel.app/"
             />
             <ProjectCard
-              image="/assets/project-3.png"
-              name="Weather App"
-              description="find out the weather"
-              tech1="React"
+              image="/assets/bestro.png"
+              name="E-Bestro"
+              description="Petrokimia Gresik Scholarship System"
+              tech1="Next JS"
               tech2="Tailwind CSS"
-              repositoryLink="https://github.com/Fajarjulianto/weather-app"
+              repositoryLink="https://github.com/Fajarjulianto/e-bestro"
             />
           </div>
           <h2 className="new-projects">New projects coming soon..</h2>
