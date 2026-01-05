@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               image="/assets/bestro.png"
               name="E-Bestro"
-              description="Petrokimia Gresik Scholarship System"
+              description="Petrokimia Gresik Scholarship<br> System"
               tech1="Next JS"
               tech2="Tailwind CSS"
               repositoryLink="https://github.com/Fajarjulianto/e-bestro"
